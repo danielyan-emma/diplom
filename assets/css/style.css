@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans";
+    width: 1920px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://github.com/danielyan-emma/repo-emma/blob/master/sources/fonts/OpenSans-Regular.woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://github.com/danielyan-emma/repo-emma/blob/master/sources/fonts/OpenSans-Bold.woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+@media (min-width: 961px) {
+.header {
+    background-image: url("../img/football_1920.jpg");
+    background-color: #0a0e34;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+
+    position: relative;
+}
+
+
+.header::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(10, 14, 52, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container {
+    position: relative;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-slogan {
+    position: relative;
+    padding-top: 288px;
+}
+
+.logo {
+    width: 188px;
+    padding-top: 41px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    font-size: 90px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 100px;
+    margin-left: 194px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.title-2 {
+    padding-bottom: 220px;
+    margin-left: 645px;
+}
+
+.download-app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 108px;
+    position: relative;
+}
+
+.download-link {
+    display: inline-block;
+    width: 42px;
+    height: 48px;
+    padding-left: 38px;
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position: center;
+}
+
+.header-button {
+    width: 309px;
+    height: 75px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    fill: #ffffff;
+    justify-content: center;
+    background-color: #5e42b0;
+    border: 1px solid #5e42b0;
+    border-radius:40px;
+}
+
+.device-icon {
+    fill: #ffffff;
+}
+
+.download-label {
+    padding-left: 24px;
+    display: flex;
+}
+
+.header-button:first-child {
+    margin-right: 51px;
+}
+
+.label-1 {
+    font-weight: 400;
+}
+
+.label-2 {
+    font-weight: 700;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.main {
+    padding-top: 28px;
+}
+
+.sport {
+    width: 960px;
+    padding-left: 193px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+.sport:nth-child(even) {
+    float: right;
+}
+
+.info {
+    padding-top: 115px;
+    margin-left: 49px;
+    box-sizing: border-box;
+}
+
+.info:nth-child(odd) {
+    float: right;
+}
+
+.player {
+    display: flex;
+    width: 566px;
+    height: 908px;
+    max-width: 100%;
+}
+.article {
+    display: block;
+}
+
+.article-name {
+    font-size: 80px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.description {
+    padding-top: 110px;
+}
+.description-2 description-3 {
+    padding-top: 120px;
+}
+
+.description-2 {
+    background-color: #f6f4fa;
+
+}
+
+.num {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.num::after {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 5px;
+    margin-top: 7px;
+    background-color: #5e42b0;
+}
+
+.subtitle {
+    font-size: 36px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.article-info {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer {
+    background-image: url("../img/game_1920.jpg");
+    background-color: #0a0e34;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 960px;
+
+    position: relative;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(10, 14, 52, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-info {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    position: relative;
+}
+
+.download {
+    width: 130px;
+    height: 137px;
+    background-color: #7151ce;
+    border-radius: 30px;
+
+    position: relative;
+}
+
+.footer-app {
+    display: flex;
+}
+
+.download-title {
+    font-size: 80px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.download-text {
+    font-size: 30px;
+    color: #a496ca;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.footer-logo {
+    width: 103px;
+    height: 86px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
