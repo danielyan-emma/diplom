@@ -5,7 +5,7 @@
 
 body {
     font-family: "Open Sans";
-    width: 1920px;
+    width: 100%;
 }
 
 @font-face {
@@ -22,6 +22,9 @@ body {
     font-weight: 700;
 }
 
+a {
+    text-decoration: none;
+}
 
 @media (min-width: 961px) {
     .header {
@@ -86,7 +89,6 @@ body {
 
     .download-app {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         position: relative;
     }
@@ -102,6 +104,7 @@ body {
     }
 
     .header-button {
+        display: flex;
         width: 309px;
         height: 75px;
         -webkit-box-sizing: border-box;
@@ -133,10 +136,12 @@ body {
 
     .label-1 {
         font-weight: 400;
+        color: white;
     }
 
     .label-2 {
         font-weight: 700;
+        color: white;
     }
 
     .visually-hidden {
@@ -194,31 +199,40 @@ body {
         padding-top: 110px;
     }
 
-    .description-2 description-3 {
-        padding-top: 120px;
-    }
-
-    .description-2 {
+    .description:nth-child(3n+3) {
         background-color: #f6f4fa;
-
     }
 
-    .num {
-        font-size: 18px;
-        color: #000000;
-        font-weight: 700;
+    .description:nth-child(3n+4) {
+        background-color: #5e42b0;
     }
 
-    .num::after {
-        content: "";
+    .info-2::after {
+        content: "01";
         display: block;
         width: 19px;
         height: 5px;
         margin-top: 7px;
         background-color: #5e42b0;
+        font-size: 18px;
+        color: #000000;
+        font-weight: 700;
     }
 
-    .subtitle {
+    .people-game::after {
+        content: "02";
+        display: block;
+        width: 19px;
+        height: 5px;
+        margin-top: 7px;
+        background-color: #5e42b0;
+        font-size: 18px;
+        color: #000000;
+        font-weight: 700;
+    }
+
+    .subtitle
+    {
         font-size: 36px;
         color: #c1c1c1;
         text-transform: uppercase;
