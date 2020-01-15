@@ -72,7 +72,7 @@ a {
     }
 
     .title {
-        font-size: 90px;
+        font-size: 5.6vw;
         color: #ffffff;
         text-transform: uppercase;
         font-weight: 700;
@@ -84,7 +84,7 @@ a {
 
     .title-2 {
         padding-bottom: 220px;
-        margin-left: 645px;
+        margin-left: 414px;
     }
 
     .download-app {
@@ -94,7 +94,7 @@ a {
     }
 
     .download-link {
-        display: inline-block;
+        display: flex;
         width: 42px;
         height: 48px;
         padding-left: 38px;
@@ -103,7 +103,7 @@ a {
         background-position: center;
     }
 
-    .header-button {
+    .buttons {
         display: flex;
         width: 309px;
         height: 75px;
@@ -119,15 +119,15 @@ a {
         background-color: #5e42b0;
         border: 1px solid #5e42b0;
         border-radius: 40px;
+        margin-left: 24px;
+    }
+
+    .download-label {
+        justify-content: center;
     }
 
     .device-icon {
         fill: #ffffff;
-    }
-
-    .download-label {
-        padding-left: 24px;
-        display: flex;
     }
 
     .header-button:first-child {
