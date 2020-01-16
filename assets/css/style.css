@@ -28,7 +28,7 @@ a {
 
 @media (min-width: 961px) {
     .header {
-        padding: 45px 195px 110px 195px;
+        padding: 45px 80px 110px 80px;
         background-image: url("../img/football_1920.jpg");
         background-color: #0a0e34;
         background-position: center center;
@@ -95,16 +95,6 @@ a {
 
     .download-link {
         display: flex;
-        width: 42px;
-        height: 48px;
-        padding-left: 38px;
-        background-repeat: no-repeat;
-        background-size: 45px;
-        background-position: center;
-    }
-
-    .buttons {
-        display: flex;
         width: 309px;
         height: 75px;
         -webkit-box-sizing: border-box;
@@ -115,11 +105,9 @@ a {
         text-transform: uppercase;
         color: #ffffff;
         fill: #ffffff;
-        justify-content: center;
         background-color: #5e42b0;
         border: 1px solid #5e42b0;
         border-radius: 40px;
-        margin-left: 24px;
     }
 
     .download-label {
@@ -128,10 +116,24 @@ a {
 
     .device-icon {
         fill: #ffffff;
+        display: flex;
+        display: flex;
+        width: 42px;
+        height: 48px;
+        background-repeat: no-repeat;
+        background-size: 45px;
+        background-position: center;
     }
 
-    .header-button:first-child {
+    .download-link:first-child {
         margin-right: 51px;
+    }
+
+    .label {
+        display: flex;
+        flex-direction: column;
+        margin-left: 24px;
+        justify-content: center;
     }
 
     .label-1 {
