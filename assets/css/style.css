@@ -154,27 +154,27 @@ a {
     }
 
     .main {
-        padding-top: 28px;
+        box-sizing: border-box;
     }
 
     .sport {
-        width: 960px;
-        padding-left: 193px;
-        padding-top: 25px;
-        box-sizing: border-box;
-    }
-
-    .sport:nth-child(even) {
-        float: right;
+        padding: 25px 131px 0 131px;
+        display: flex;
     }
 
     .info {
-        padding-top: 115px;
-        margin-left: 49px;
-        box-sizing: border-box;
+        padding-top: 90px;
     }
 
-    .info:nth-child(odd) {
+    .athlets {
+        margin-left: 49px;
+    }
+
+    .players {
+        width: 726px;
+    }
+
+    .basketball:nth-child(2) {
         float: right;
     }
 
@@ -182,11 +182,11 @@ a {
         display: flex;
         width: 566px;
         height: 908px;
-        max-width: 100%;
     }
 
     .article {
         display: block;
+        width: 717px;
     }
 
     .article-name {
