@@ -211,6 +211,13 @@ a {
         background-color: #5e42b0;
     }
 
+    .num {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
     .info-2::after {
         content: "01";
         display: block;
