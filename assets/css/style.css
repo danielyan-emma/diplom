@@ -91,6 +91,7 @@ a {
         display: flex;
         justify-content: center;
         position: relative;
+        align-item: center;
     }
 
     .download-link {
@@ -111,7 +112,7 @@ a {
     }
 
     .download-label {
-        justify-content: center;
+        align-item: center;
     }
 
     .device-icon {
@@ -167,14 +168,14 @@ a {
     }
 
     .athlets {
-        margin-left: 49px;
+        margin-left: 88px;
     }
 
     .players {
         width: 726px;
     }
 
-    .basketball:nth-child(2) {
+    .basketball {
         float: right;
     }
 
@@ -203,6 +204,7 @@ a {
 
     .description:nth-child(3n+3) {
         background-color: #f6f4fa;
+        width: 100%;
     }
 
     .description:nth-child(3n+4) {
@@ -233,8 +235,7 @@ a {
         font-weight: 700;
     }
 
-    .subtitle
-    {
+    .subtitle {
         font-size: 36px;
         color: #c1c1c1;
         text-transform: uppercase;
