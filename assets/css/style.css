@@ -175,10 +175,6 @@ a {
         width: 726px;
     }
 
-    .basketball {
-        float: right;
-    }
-
     .player {
         display: flex;
         width: 566px;
