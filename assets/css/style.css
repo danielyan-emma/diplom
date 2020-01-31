@@ -118,11 +118,9 @@ a {
     .device-icon {
         fill: #ffffff;
         display: flex;
-        display: flex;
         width: 42px;
         height: 48px;
         background-repeat: no-repeat;
-        background-size: 45px;
         background-position: center;
     }
 
@@ -286,12 +284,24 @@ a {
         height: 137px;
         background-color: #7151ce;
         border-radius: 30px;
+        margin-right: 36px;
+        margin-top: 228px;
 
         position: relative;
     }
 
+    .logo-without-text {
+        width: 102px;
+        height: 86px;
+        background-position: center;
+    }
+
     .footer-app {
-        display: flex;
+        margin-top: 250px;
+    }
+
+    .footer-download-app {
+        margin-top: 163px;
     }
 
     .download-title {
@@ -307,15 +317,27 @@ a {
         color: #a496ca;
         text-transform: uppercase;
         font-weight: normal;
+        line-height: 34px;
     }
 
     .footer-logo {
         width: 103px;
         height: 86px;
+        margin-top: 258px;
+
         position: absolute;
         top: 50%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
+    }
+
+    .footer-container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .logo {
+
     }
 }
