@@ -159,6 +159,7 @@ a {
     .sport {
         padding: 25px 131px 0 131px;
         display: flex;
+        position: relative;
     }
 
     .info {
@@ -210,6 +211,12 @@ a {
         color: #000000;
         font-weight: 700;
         text-transform: uppercase;
+    }
+
+    .basketball {
+        position: absolute;
+        right: 425px;
+        top: 0;
     }
 
     .info-2::after {
@@ -273,8 +280,7 @@ a {
 
     .main-info {
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 900px;
         position: relative;
     }
