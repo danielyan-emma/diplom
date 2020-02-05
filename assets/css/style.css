@@ -109,9 +109,6 @@ a {
         background-color: #5e42b0;
         border: 1px solid #5e42b0;
         border-radius: 40px;
-    }
-
-    .download-label {
         align-items: center;
     }
 
@@ -156,8 +153,6 @@ a {
     }
 
     .sport {
-        padding: 25px 131px 0 131px;
-        display: flex;
         position: relative;
     }
 
@@ -165,23 +160,15 @@ a {
         padding-top: 90px;
     }
 
-    .athlets {
-        margin-left: 88px;
-    }
+    .soccer-photo {
+        position: absolute;
 
-    .players {
-        width: 726px;
-    }
-
-    .player {
-        display: flex;
-        width: 566px;
-        height: 908px;
+        left: 10%;
+        top: 25px;
     }
 
     .article {
         display: block;
-        width: 717px;
     }
 
     .article-name {
@@ -193,19 +180,51 @@ a {
         padding-bottom: 60px;
     }
 
+    .article-name-right {
+        margin-left: 50%;
+    }
+
+    .article-name-left {
+        padding-left: 192px;
+    }
+
+
+    ul {
+        list-style: none;
+    }
+
+    .color-bg {
+        width: 100%;
+    }
+
+    .gray {
+        background-color: #f6f4fa;
+    }
+
+    .violet {
+        background-color: #5e42b0;
+    }
+
+    .blue {
+        background-color: #0a0e34;
+    }
+
+
     .description {
         display: flex;
         flex-wrap: wrap;
         padding: 60px 0 60px 0;
+        width: 50%;
+        align-items: center;
     }
 
-    .description:nth-child(3n+3) {
-        background-color: #f6f4fa;
-        width: 100%;
+    .description-right {
+        margin-left: 50%;
+       margin-right: 195px;
     }
 
-    .description:nth-child(3n+4) {
-        background-color: #5e42b0;
+    .description-left {
+        padding-left: 192px;
     }
 
     .num {
@@ -216,6 +235,18 @@ a {
         padding-right: 14px;
     }
 
+    .num:nth-child(6) {
+        color: #9173e6;
+    }
+
+    .white-num:nth-child(2) {
+        color: #9173e6;
+    }
+
+    .blue ~ .white-num {
+        color: #9173e6;
+    }
+
 
     .num::after {
         content: "";
@@ -224,10 +255,25 @@ a {
         height: 5px;
         margin-top: 7px;
         background-color: #5e42b0;
+        border-radius: 20%;
     }
 
-    .num:nth-child(n+3)::after {
+    .white-num::after {
+        content: "";
+        display: block;
+        width: 19px;
+        height: 5px;
+        margin-top: 7px;
+        border-radius: 20%;
         background-color: #ffffff;
+    }
+
+    .article-info {
+        font-size: 20px;
+        color: #000000;
+        font-weight: 400;
+        line-height: 28px;
+        padding-top: 31px;
     }
 
     .white-font {
@@ -236,7 +282,7 @@ a {
 
     .basketball {
         position: absolute;
-        right: 425px;
+        right: 4%;
         top: 0;
     }
 
@@ -269,15 +315,6 @@ a {
         color: #c1c1c1;
         text-transform: uppercase;
         font-weight: 700;
-        text-align: center;
-    }
-
-    .article-info {
-        font-size: 20px;
-        color: #000000;
-        font-weight: 400;
-        line-height: 28px;
-        padding-top: 31px;
     }
 
     .footer {
@@ -305,6 +342,7 @@ a {
         display: flex;
         margin: 0 auto;
         width: 900px;
+
         position: relative;
     }
 
@@ -323,10 +361,11 @@ a {
         width: 102px;
         height: 86px;
         align-items: center;
+        margin: 19% 12% ;
     }
 
     .footer-app {
-        margin-top: 250px;
+        margin-top: 215px;
     }
 
     .footer-download-app {
@@ -366,7 +405,4 @@ a {
         margin-left: auto;
     }
 
-    .logo {
-
-    }
 }
