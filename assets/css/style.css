@@ -159,7 +159,7 @@ a {
     .info {
         padding-top: 90px;
     }
-    
+
     .soccer-photo {
         position: absolute;
 
@@ -167,9 +167,8 @@ a {
         top: 25px;
     }
 
-    article {
-        display: block;
-        width: 100%;
+    .article-info {
+        max-width: 715px;
     }
 
     .article-name {
@@ -201,20 +200,53 @@ a {
 
     .gray {
         background-color: #f6f4fa;
+        padding: 60px 0 60px 0;
+        align-items: center;
     }
 
     .violet {
         background-color: #5e42b0;
+        padding: 60px 0 60px 0;
+        align-items: center;
     }
 
     .blue {
         background-color: #0a0e34;
     }
 
+    .info>li {
+        padding: 60px 0 60px 0;
+        width: 50%;
+        align-items: center;
+    }
+
+    .subtitle {
+        font-size: 36px;
+        color: #c1c1c1;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-left: 33px;
+    }
+
+    .subtitle::after {
+        content: "01";
+        display: block;
+        font-size: 18px;
+        color: #000000;
+        font-weight: 700;
+        font-family: "Open Sans";
+        top: 216px;
+        left: 0;
+        width: 19px;
+        height: 5px;
+        background-color: #5e42b0;
+        border-radius: 20%;
+
+        position: absolute;
+    }
+
 
     .description {
-        display: flex;
-        flex-wrap: wrap;
         padding: 60px 0 60px 0;
         width: 50%;
         align-items: center;
@@ -222,7 +254,7 @@ a {
 
     .description-right {
         margin-left: 50%;
-       margin-right: 195px;
+        margin-right: 195px;
     }
 
     .description-left {
@@ -271,7 +303,7 @@ a {
     }
 
     .article-info {
-        font-size: 20px;
+        font-size: 24px;
         color: #000000;
         font-weight: 400;
         line-height: 28px;
@@ -288,35 +320,56 @@ a {
         top: 0;
     }
 
-    .info-2::after {
-        content: "01";
-        display: block;
-        width: 19px;
-        height: 5px;
-        margin-top: 7px;
-        background-color: #5e42b0;
-        font-size: 18px;
-        color: #000000;
-        font-weight: 700;
+    .section {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .people-game::after {
-        content: "02";
-        display: block;
-        width: 19px;
-        height: 5px;
-        margin-top: 7px;
-        background-color: #5e42b0;
-        font-size: 18px;
-        color: #000000;
-        font-weight: 700;
+    .be-active {
+        display: flex;
     }
 
-    .subtitle {
-        font-size: 36px;
-        color: #c1c1c1;
-        text-transform: uppercase;
+    .find-contact {
+        display: flex;
+    }
+
+    .players-game {
+        width: 738px;
+        height: 568px;
+    }
+
+    .people-game {
+        display: flex;
+        width: 50%;
+        position: relative;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .number {
+        font-size: 24px;
+        color: #f5f6f7;
         font-weight: 700;
+        font-family: "Open Sans";
+    }
+
+    .number::before {
+        content: "";
+        display: block;
+        width: 165px;
+        height: 165px;
+        margin: -110px;
+        margin-top: 213px;
+        background-color: #5e42b0;
+        background-position: center;
+
+        position: absolute;
+        z-index: 1;
+    }
+
+    .info-2 {
+        padding: 251px 77px 152px 41px;
     }
 
     .footer {
@@ -363,7 +416,7 @@ a {
         width: 102px;
         height: 86px;
         align-items: center;
-        margin: 19% 12% ;
+        margin: 19% 12%;
     }
 
     .footer-app {
