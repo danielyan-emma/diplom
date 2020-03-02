@@ -22,6 +22,14 @@ body {
     font-weight: 700;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -188,25 +196,18 @@ a {
         padding-left: 192px;
     }
 
-
-    ul {
-        list-style: none;
-    }
-
     .color-bg {
         width: 100%;
-        margin-right: 195px;
+        margin-right: 50%;
     }
 
     .gray {
         background-color: #f6f4fa;
-        padding: 60px 0 60px 0;
         align-items: center;
     }
 
     .violet {
         background-color: #5e42b0;
-        padding: 60px 0 60px 0;
         align-items: center;
     }
 
@@ -214,42 +215,19 @@ a {
         background-color: #0a0e34;
     }
 
-    .info>li {
-        padding: 60px 0 60px 0;
-        width: 50%;
-        align-items: center;
-    }
-
     .subtitle {
         font-size: 36px;
         color: #c1c1c1;
         text-transform: uppercase;
         font-weight: 700;
-        margin-left: 33px;
     }
-
-    .subtitle::after {
-        content: "01";
-        display: block;
-        font-size: 18px;
-        color: #000000;
-        font-weight: 700;
-        font-family: "Open Sans";
-        top: 216px;
-        left: 0;
-        width: 19px;
-        height: 5px;
-        background-color: #5e42b0;
-        border-radius: 20%;
-
-        position: absolute;
-    }
-
 
     .description {
         padding: 60px 0 60px 0;
         width: 50%;
         align-items: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .description-right {
@@ -269,18 +247,9 @@ a {
         padding-right: 14px;
     }
 
-    .num:nth-child(6) {
+    .purple-num {
         color: #9173e6;
     }
-
-    .white-num:nth-child(2) {
-        color: #9173e6;
-    }
-
-    .blue ~ .white-num {
-        color: #9173e6;
-    }
-
 
     .num::after {
         content: "";
@@ -292,7 +261,7 @@ a {
         border-radius: 20%;
     }
 
-    .white-num::after {
+    .purple-num::after {
         content: "";
         display: block;
         width: 19px;
@@ -303,7 +272,7 @@ a {
     }
 
     .article-info {
-        font-size: 24px;
+        font-size: 20px;
         color: #000000;
         font-weight: 400;
         line-height: 28px;
@@ -314,37 +283,35 @@ a {
         color: #ffffff;
     }
 
+    .section {
+        align-items: center;
+        justify-content: center;
+    }
+
     .basketball {
         position: absolute;
         right: 4%;
         top: 0;
     }
 
-    .section {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .be-active {
-        display: flex;
-    }
-
-    .find-contact {
+    .be-active, .find-contact {
         display: flex;
     }
 
     .players-game {
-        width: 738px;
-        height: 568px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .people-game {
         display: flex;
         width: 50%;
-        position: relative;
-        background-color: #ffffff;
+        background-color: #475e88;
         justify-content: center;
         align-items: center;
+        line-height: 0;
+
+        position: relative;
     }
 
     .number {
@@ -352,6 +319,9 @@ a {
         color: #f5f6f7;
         font-weight: 700;
         font-family: "Open Sans";
+
+        position: absolute;
+        z-index: 1;
     }
 
     .number::before {
@@ -359,17 +329,27 @@ a {
         display: block;
         width: 165px;
         height: 165px;
-        margin: -110px;
-        margin-top: 213px;
+        margin: -87px;
         background-color: #5e42b0;
-        background-position: center;
+        background-position: center center;
+    }
 
-        position: absolute;
-        z-index: 1;
+    .left {
+        padding-left: 127px;
     }
 
     .info-2 {
-        padding: 251px 77px 152px 41px;
+        padding-left: 10%;
+    }
+
+    .article-name {
+        padding-bottom: 78px;
+    }
+
+    .article-info-2 {
+        width: 645px;
+        font-size: 24px;
+        line-height: 28px;
     }
 
     .footer {
