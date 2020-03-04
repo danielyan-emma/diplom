@@ -330,8 +330,12 @@ a {
         box-sizing: border-box;
 
         position: absolute;
-        left: 40.5%;
+        left: 44.5%;
         z-index: 1;
+    }
+
+    .number-2 {
+        top: 44.5%;
     }
 
     /*.number::before {*/
@@ -357,6 +361,7 @@ a {
     .left {
         padding-left: 127px;
         width: 50%;
+        box-sizing: border-box;
     }
 
     .info-2 {
