@@ -301,12 +301,12 @@ a {
     }
 
     .players-game {
-        width: 100%;
+        max-width: 100%;
         box-sizing: border-box;
     }
 
     .people-game {
-        display: flex;
+        display: block;
         width: 50%;
         background-color: #475e88;
         justify-content: center;
@@ -330,6 +330,7 @@ a {
         box-sizing: border-box;
 
         position: absolute;
+        left: 40.5%;
         z-index: 1;
     }
 
@@ -451,7 +452,6 @@ a {
         margin-top: 258px;
 
         position: absolute;
-        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -461,4 +461,10 @@ a {
         margin-left: auto;
     }
 
+}
+
+@media (max-width: 960px) {
+    .soccer-photo {
+        left: 0;
+    }
 }
