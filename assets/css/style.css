@@ -371,6 +371,7 @@ a {
         width: 645px;
         font-size: 24px;
         line-height: 28px;
+        position: relative;
     }
 
     .footer {
