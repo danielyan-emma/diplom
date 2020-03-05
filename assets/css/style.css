@@ -10,14 +10,14 @@ body {
 
 @font-face {
     font-family: "Open Sans";
-    src: url("https://github.com/danielyan-emma/repo-emma/blob/master/sources/fonts/OpenSans-Regular.woff");
+    src: url("https://github.com/danielyan-emma/diplom/blob/master/sources/fonts/OpenSans-Regular.woff");
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url("https://github.com/danielyan-emma/repo-emma/blob/master/sources/fonts/OpenSans-Bold.woff");
+    src: url("https://github.com/danielyan-emma/diplom/blob/master/sources/fonts/OpenSans-Bold.woff");
     font-style: normal;
     font-weight: 700;
 }
@@ -175,17 +175,13 @@ a {
         top: 25px;
     }
 
-    .article-info {
-        max-width: 715px;
-    }
-
     .article-name {
         font-size: 80px;
         color: #e7e7e7;
         text-transform: uppercase;
         font-weight: 700;
         line-height: 60px;
-        padding-bottom: 60px;
+        padding-bottom: 78px;
     }
 
     .article-name-right {
@@ -278,6 +274,8 @@ a {
         font-weight: 400;
         line-height: 28px;
         padding-top: 31px;
+        max-width: 715px;
+        display: block;
     }
 
     .white-font {
@@ -294,10 +292,6 @@ a {
         position: absolute;
         right: 4%;
         top: 0;
-    }
-
-    .be-active, .find-contact {
-        display: flex;
     }
 
     .players-game {
@@ -335,7 +329,8 @@ a {
     }
 
     .number-2 {
-        top: 44.5%;
+        top: 25%;
+        left: 89%;
     }
 
     /*.number::before {*/
@@ -351,7 +346,7 @@ a {
     .number::after {
         content: "";
         display: block;
-        width: 24px;
+        width: 25px;
         height: 5px;
         border-radius: 2px;
         background-color: #8f7bc8;
@@ -365,12 +360,9 @@ a {
     }
 
     .info-2 {
-        padding-left: 10%;
+        padding-left: 9%;
         box-sizing: border-box;
-    }
-
-    .article-name {
-        padding-bottom: 78px;
+        position: relative;
     }
 
     .article-info-2 {
