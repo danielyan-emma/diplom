@@ -73,7 +73,7 @@ a {
     }
 
     .logo {
-        width: 188px;
+        width: 195px;
         margin: auto;
         position: relative;
         z-index: 1;
@@ -162,6 +162,15 @@ a {
 
     .sport {
         position: relative;
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .player {
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto
     }
 
     .info {
@@ -216,6 +225,17 @@ a {
         color: #c1c1c1;
         text-transform: uppercase;
         font-weight: 700;
+        margin-right: 105px;
+    }
+
+    .article-info {
+        font-size: 20px;
+        color: #000000;
+        font-weight: 400;
+        line-height: 28px;
+        padding-top: 31px;
+        max-width: 715px;
+        display: block;
     }
 
     .description {
@@ -266,16 +286,6 @@ a {
         margin-top: 7px;
         border-radius: 20%;
         background-color: #ffffff;
-    }
-
-    .article-info {
-        font-size: 20px;
-        color: #000000;
-        font-weight: 400;
-        line-height: 28px;
-        padding-top: 31px;
-        max-width: 715px;
-        display: block;
     }
 
     .white-font {
@@ -355,14 +365,16 @@ a {
 
     .left {
         padding-left: 127px;
-        width: 50%;
         box-sizing: border-box;
+        width: 50%;
+
     }
 
     .info-2 {
         padding-left: 9%;
         box-sizing: border-box;
         position: relative;
+        width: 50%;
     }
 
     .article-info-2 {
@@ -457,11 +469,141 @@ a {
         margin-right: auto;
         margin-left: auto;
     }
-
 }
 
-@media (max-width: 960px) {
-    .soccer-photo {
+@media (min-width: 641px) and (max-width: 960px) {
+
+    .header {
+        background-image: url(https://github.com/danielyan-emma/diplom/blob/master/sources/img/football_767.jpg);
+        background-color: #0a0e34;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 956px;
+        padding: 40px 87px 90px 87px;
+        margin: 0 auto;
+
+        position: relative;
+    }
+
+
+    .header::before {
+        content: "";
+        background-color: rgba(10, 14, 52, 0.9);
+        top: 0;
         left: 0;
+        right: 0;
+        bottom: 0;
+
+        position: absolute;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 768px;
+        margin: auto;
+
+        position: relative;
+        z-index: 1;
+    }
+
+    .header-slogan {
+        padding-top: 184px;
+    }
+
+    .logo {
+        width: 208px;
+        margin: auto;
+    }
+
+    .title {
+        font-size: 7.1vw;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 100px;
+
+        position: relative;
+        z-index: 1;
+    }
+
+    .title-2 {
+        padding-bottom: 306px;
+        margin-left: 98px;
+    }
+
+    .download-app {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        align-item: center;
+    }
+
+    .download-link {
+        display: flex;
+        width: 309px;
+        height: 75px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px 40px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #ffffff;
+        fill: #ffffff;
+        background-color: #5e42b0;
+        border: 1px solid #5e42b0;
+        border-radius: 40px;
+        align-items: center;
+    }
+
+    .device-icon {
+        fill: #ffffff;
+        display: flex;
+        width: 42px;
+        height: 48px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .label {
+        display: block;
+        flex-direction: column;
+        margin-left: 24px;
+    }
+
+    .label-1 {
+        font-weight: 400;
+        color: white;
+    }
+
+    .label-2 {
+        font-weight: 700;
+        color: white;
+    }
+
+    .visually-hidden {
+        width: 1px;
+        height: 1px;
+        clip: rect(1px, 1px, 1px, 1px);
+        position: absolute;
+    }
+
+
+
+
+    .soccer-photo {
+        right: 60%;
+
+        position: absolute;
+    }
+
+    .basketball {
+        /*left: calc(50% - 90px);*/
+        left: 51%;
+
+        position: absolute;
+
     }
 }
+
