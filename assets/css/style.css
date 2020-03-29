@@ -245,7 +245,6 @@ a {
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-
     }
 
     .description-right {
@@ -297,11 +296,13 @@ a {
         align-items: center;
         justify-content: center;
         display: flex;
+        position: relative;
     }
 
     .basketball {
-        right: 4%;
+        right: 0;
         top: 0;
+        overflow: hidden;
 
         position: absolute;
     }
@@ -322,39 +323,37 @@ a {
         position: relative;
     }
 
+    .square {
+        width: 165px;
+        height: 165px;
+        background-color: #5e42b0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+
+        position: absolute;
+        z-index: 1;
+    }
+
     .number {
         font-size: 24px;
         color: #f5f6f7;
         font-weight: 700;
         font-family: "Open Sans";
-        display: block;
-        width: 165px;
-        height: 165px;
-        background-color: #5e42b0;
-        background-position: center center;
-        padding: 4% 4.5%;
-        box-sizing: border-box;
+    }
+
+    .square-2 {
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
 
         position: absolute;
-        left: 44.5%;
-        z-index: 1;
     }
-
-    .number-2 {
-        top: 25%;
-        left: 89%;
-        padding: 8% 8.5%;
-    }
-
-    /*.number::before {*/
-        /*content: "";*/
-        /*display: block;*/
-        /*width: 165px;*/
-        /*height: 165px;*/
-        /*margin: -87px;*/
-        /*background-color: #5e42b0;*/
-        /*background-position: center center;*/
-    /*}*/
 
     .number::after {
         content: "";
@@ -363,26 +362,22 @@ a {
         height: 5px;
         border-radius: 2px;
         background-color: #8f7bc8;
-
     }
 
     .left {
         padding-left: 127px;
         box-sizing: border-box;
         width: 50%;
-
     }
 
     .info-2 {
         padding-left: 6%;
         box-sizing: border-box;
         width: 50%;
-
-        position: relative;
     }
 
     .article-info-2 {
-        width: 645px;
+        max-width: 645px;
         font-size: 24px;
         line-height: 28px;
 
@@ -462,8 +457,7 @@ a {
     }
 
     .footer-logo {
-        width: 103px;
-        height: 86px;
+        width: 195px;
         margin-top: 258px;
 
         position: absolute;
@@ -529,7 +523,6 @@ a {
 
     .basketball {
         /*left: calc(50% - 90px);*/
-        left: 31%;
         top: 65px;
     }
 
@@ -591,6 +584,7 @@ a {
     .info-2 {
         width: 100%;
         padding: 82px 0 110px 32px;
+        position: relative;
     }
 
     .find-contact {
@@ -598,12 +592,11 @@ a {
         flex-direction: column-reverse;
     }
 
-    .number {
+    .square {
         width: 116px;
         height: 116px;
-        left: 4%;
-        padding: 4% 5%;
-        top: -23%;
+        left: 12%;
+        top: -6%;
 
         position: absolute;
     }
@@ -632,6 +625,7 @@ a {
         margin: 0 auto;
         padding-top: 250px;
         padding-bottom: 280px;
+        text-align: center;
     }
 
     .footer-download-app {
@@ -722,6 +716,7 @@ a {
 
     .player {
         top: 87px;
+        width: 100%;
     }
 
     .description {
@@ -740,7 +735,7 @@ a {
 
     .subtitle {
         font-size: 23px;
-        margin-right: 70px;
+        margin-right: 200px;
     }
 
     .article-info {
@@ -771,7 +766,7 @@ a {
 
     .info-2 {
         max-width: 278px;
-        left: -23.5%;
+        left: -22.5vw;
 
         position: relative;
     }
@@ -782,16 +777,14 @@ a {
     }
 
     .number {
-        width: 69px;
-        height: 69px;
         font-size: 14px;
-        padding: 8% 8.5%;
-        left: 6.5%;
-        top: -45%;
     }
 
-    .number-2 {
-        left: 10%;
+    .square {
+        width: 69px;
+        height: 69px;
+        left: 9.5vw;
+        top: -22%;
     }
 
     .number::after {
