@@ -179,7 +179,8 @@ a {
     }
 
     .soccer-photo {
-        left: 10%;
+        right: 50%;
+        left: auto;
         top: 25px;
 
         position: absolute;
@@ -192,6 +193,7 @@ a {
         font-weight: 700;
         line-height: 60px;
         padding-bottom: 78px;
+        max-width: 395px;
     }
 
     .article-name-right {
@@ -199,7 +201,7 @@ a {
     }
 
     .article-name-left {
-        padding-left: 192px;
+        padding-left: 6%;
     }
 
     .color-bg {
@@ -221,12 +223,30 @@ a {
         background-color: #0a0e34;
     }
 
+    .description {
+        padding: 60px 0 60px 0;
+        width: 50%;
+        align-items: center;
+    }
+
+    .description-right {
+        margin-left: 50%;
+        margin-right: 195px;
+    }
+
+    .description-left {
+        padding-left: 6%;
+    }
+
+    .number-header {
+        display: flex;
+    }
+
     .subtitle {
         font-size: 36px;
         color: #c1c1c1;
         text-transform: uppercase;
         font-weight: 700;
-        margin-right: 105px;
     }
 
     .article-info {
@@ -237,23 +257,6 @@ a {
         padding-top: 31px;
         max-width: 715px;
         display: block;
-    }
-
-    .description {
-        padding: 60px 0 60px 0;
-        width: 50%;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .description-right {
-        margin-left: 50%;
-        margin-right: 195px;
-    }
-
-    .description-left {
-        padding-left: 192px;
     }
 
     .num {
@@ -276,6 +279,16 @@ a {
         margin-top: 7px;
         background-color: #5e42b0;
         border-radius: 20%;
+    }
+
+    .white-num::after {
+        content: "";
+        display: block;
+        width: 19px;
+        height: 5px;
+        margin-top: 7px;
+        border-radius: 20%;
+        background-color: #efefef;
     }
 
     .purple-num::after {
@@ -522,7 +535,6 @@ a {
     }
 
     .basketball {
-        /*left: calc(50% - 90px);*/
         top: 65px;
     }
 
@@ -545,6 +557,7 @@ a {
 
     .article-name {
         padding-bottom: 0;
+        max-width: 395px;
     }
 
     .description {
@@ -712,6 +725,10 @@ a {
     .article-name-left, .article-name-right {
         font-size: 50px;
         margin-left: 19px;
+    }
+
+    .soccer-photo {
+        right: auto;
     }
 
     .player {
