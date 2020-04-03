@@ -158,6 +158,9 @@ a {
 
     .main {
         box-sizing: border-box;
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .sport {
@@ -314,8 +317,17 @@ a {
 
     .basketball {
         right: 0;
+        left: 30%;
         top: 0;
         overflow: hidden;
+
+        position: absolute;
+    }
+
+    .soccer-photo {
+        right: 50%;
+        left: auto;
+        top: 25px;
 
         position: absolute;
     }
@@ -531,11 +543,13 @@ a {
 
     .soccer-photo {
         left: calc(1% - 170px);
+        right: auto;
         top: 120px;
     }
 
     .basketball {
         top: 65px;
+        left: auto;
     }
 
     .subtitle {
@@ -729,6 +743,10 @@ a {
 
     .soccer-photo {
         right: auto;
+    }
+
+    .basketball {
+        left: auto;
     }
 
     .player {
