@@ -196,7 +196,6 @@ a {
         font-weight: 700;
         line-height: 60px;
         padding-bottom: 78px;
-        max-width: 395px;
     }
 
     .article-name-right {
@@ -571,7 +570,6 @@ a {
 
     .article-name {
         padding-bottom: 0;
-        max-width: 395px;
     }
 
     .description {
