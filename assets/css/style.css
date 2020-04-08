@@ -234,6 +234,8 @@ a {
     .description-right {
         margin-left: 50%;
         margin-right: 195px;
+        padding-right: 5%;
+        box-sizing: border-box;
     }
 
     .description-left {
@@ -494,6 +496,23 @@ a {
         margin-left: auto;
     }
 
+@media (min-width: 961px) and (max-width: 1600px) {
+
+    .square {
+        width: 105px;
+        height: 105px;
+    }
+
+    .left {
+        padding-left: 80px;
+        padding-right: 5%;
+    }
+
+    .info-2 {
+        padding-right: 5%;
+    }
+}
+
 @media (min-width: 641px) and (max-width: 960px) {
 
     .header {
@@ -576,8 +595,12 @@ a {
         padding: 39px 0 39px 30px;
     }
 
-    .article-name-right, .description-right {
+    .description-right {
         margin-left: 37%;
+    }
+
+    .article-name-right {
+        margin-left: 42%;
     }
 
     .description-left {
@@ -753,9 +776,10 @@ a {
     }
 
     .description {
-        width: 100%;
+        width: 90%;
         padding: 60px 0 60px 0;
         margin-left: 19px;
+        box-sizing: border-box;
     }
 
     .color-bg {
@@ -775,7 +799,7 @@ a {
         font-size: 15px;
         line-height: 18px;
         padding-top: 28px;
-        max-width: 280px;
+        max-width: 100%;
     }
 
     .section {
